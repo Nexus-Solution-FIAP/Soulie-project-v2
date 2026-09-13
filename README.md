@@ -199,8 +199,8 @@ Disciplina: Front-End Design Engineering
 
 ## 📬 Contato
 
-- **E-mail:** soulie@soulup.com.br
-- **Telefone:** +55 11 3385-8010
+- **E-mail:** nathantoneto@gmail.com
+- **Telefone:** +55 11 94809-9001
 - **Formulário:** Acessível via rota `/contato` na aplicação
 
 ---
