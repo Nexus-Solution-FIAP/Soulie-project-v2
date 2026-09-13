@@ -1,13 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Card } from '../components/Card';
 import { Soulie } from '../components/Soulie';
-import { useSoulie } from '../context/SoulieContext';
 import { CheckCircle, Circle, TrendingUp, HeartCrack, Heart, RotateCcw, Settings, X } from 'lucide-react';
 import type { Mission } from '../types/dashboard';
+
 import {
   PLANT_TYPE_MAP, MOOD_LABELS, MOOD_COLORS,
   EVOLUTION_STAGES, NEXT_LEVEL_EMOJIS, PLANT_THEMES, DEFAULT_MISSIONS, MISSION_CATEGORY_MAP
 } from '../constants/dashboard';
+import { useSoulie } from '../context/SoulieContext';
 
 
 export function Dashboard() {
@@ -39,9 +40,6 @@ export function Dashboard() {
     }, 1200);
   };
 
-  useEffect(() => {
-    // Removed to fix react-hooks/set-state-in-effect
-  }, []);
 
   const currentLevelXp = levelInfo.xpRequired;
   const nextLevelXp = levelInfo.nextLevelXp;
@@ -176,7 +174,7 @@ export function Dashboard() {
                 </button>
                 <button
                   onClick={() => setMood('happy')}
-                  className="flex-1 flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl bg-green-500/10 border border-green-500/20 text-green-400 text-sm font-medium hover:bg-green-500/20 hover:border-green-500/40 transition-all duration-200"
+                  className="flex-1 flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl bg-nature-accent/10 border border-nature-accent/20 text-nature-accent text-sm font-medium hover:bg-nature-accent/20 hover:border-nature-accent/40 transition-all duration-200"
                 >
                   <Heart className="w-4 h-4" />
                   <span>Cuidar</span>

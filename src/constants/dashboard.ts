@@ -1,5 +1,5 @@
-import type { Mission, PlantTypeStyle, PlantTheme, EvolutionStage } from '../types/dashboard';
 import { Recycle, Bike, Droplets, Zap, ShoppingBag, type LucideIcon } from 'lucide-react';
+import type { EvolutionStage, Mission, PlantTheme, PlantTypeStyle } from '../types/dashboard';
 
 export const PLANT_TYPE_MAP: Record<string, PlantTypeStyle> = {
   paubrasil: { badge: '🌳 Pau-brasil', bg: 'bg-green-600/15', text: 'text-green-500', border: 'border-green-600/40', shadow: 'shadow-[0_0_40px_rgba(22,163,74,0.2)]' },
@@ -23,12 +23,6 @@ export const MOOD_COLORS: Record<string, string> = {
   excited: 'text-soulie-excited',
 };
 
-export const MOOD_BORDER_COLORS: Record<string, string> = {
-  happy: 'border-soulie-happy/30',
-  sad: 'border-soulie-sad/30',
-  wilted: 'border-soulie-wilted/30',
-  excited: 'border-soulie-excited/30',
-};
 
 export const EVOLUTION_STAGES: EvolutionStage[] = [
   { name: 'Sementinha', emoji: '🌰', xp: 0 },

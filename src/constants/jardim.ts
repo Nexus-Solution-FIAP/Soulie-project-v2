@@ -1,4 +1,4 @@
-import type { LeaderboardUser } from '../types/jardim';
+import type { LeaderboardUser } from "../types/jardim";
 
 export const LEADERBOARD_DATA: LeaderboardUser[] = [
   { id: 1, name: 'Laura Albuquerque Gama', avatarLevel: 'Árvore', streak: 14, recycled: 8.2, xp: 98 },
