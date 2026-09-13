@@ -25,7 +25,7 @@ export function Card({
   const getStyles = () => {
     switch (variant) {
       case 'brand': return { indicator: 'bg-nature-brand', iconColor: 'text-nature-brand' };
-      case 'success': return { indicator: 'bg-green-500', iconColor: 'text-green-500' };
+      case 'success': return { indicator: 'bg-nature-accent', iconColor: 'text-nature-accent' };
       case 'accent': return { indicator: 'bg-nature-accent', iconColor: 'text-nature-accent' };
       case 'warning': return { indicator: 'bg-yellow-500', iconColor: 'text-yellow-500' };
       case 'danger': return { indicator: 'bg-red-500', iconColor: 'text-red-500' };

@@ -15,13 +15,6 @@ export const MOOD_ANIMATIONS: Record<SoulieMood, string> = {
   excited: 'animate-soulie-bounce',
 };
 
-export const PLANT_FILTERS: Record<string, string> = {
-  paubrasil: '',
-  samambaia: '',
-  acaizeiro: '',
-  ipeamarelo: '',
-  mandacaru: '',
-};
 
 export const SOULIE_MOOD_LABELS: Record<SoulieMood, string> = {
   happy: '😊 Feliz',

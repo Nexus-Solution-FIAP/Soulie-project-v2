@@ -95,7 +95,7 @@ export function Jardim() {
                   {leaderboard.map((user, index) => (
                     <tr 
                       key={user.id} 
-                      className={`group transition-colors hover:bg-nature-surface/50 ${user.isCurrentUser ? 'bg-nature-brand/10 border-l-2 border-nature-brand' : ''}`}
+                      className={`group transition-colors hover:bg-nature-surface/50 ${user.isCurrentUser ? 'bg-nature-brand/10' : ''}`}
                     >
                       <td className="py-4 px-4 flex items-center justify-center w-16">
                         {renderRankIcon(index + 1)}

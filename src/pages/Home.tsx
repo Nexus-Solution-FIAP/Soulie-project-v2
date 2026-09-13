@@ -9,7 +9,8 @@ export function Home() {
       <section className="relative z-0 px-4 sm:px-6 lg:px-8 py-20 md:py-32 flex flex-col items-center justify-center text-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat -z-20"
-          style={{ backgroundImage: "url('/hero-background.jfif')" }}
+          style={{ backgroundImage: "url('/photo-1769189115444-feef1f641982.jpeg')" }}
+
         />
         <div className="absolute inset-0 bg-nature-bg/60 -z-10" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-nature-brand/20 via-nature-bg/50 to-nature-bg -z-10" />
@@ -78,7 +79,7 @@ export function Home() {
 
       <section className="px-4 sm:px-6 lg:px-8 py-24 max-w-7xl mx-auto border-b border-nature-border/10">
         <div className="text-center mb-16">
-          <h2 className="font-display text-3xl font-bold text-white mb-4">Ecologia encontra gamificação;</h2>
+          <h2 className="font-display text-3xl font-bold text-white mb-4">Ecologia encontra gamificação</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             O Soulie fecha o gap entre intenção e ação sustentável através de mecânicas de engajamento inteligentes.
           </p>

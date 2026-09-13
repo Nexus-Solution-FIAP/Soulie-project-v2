@@ -1,4 +1,4 @@
-import type { TeamMember } from '../types/integrantes';
+import type { TeamMember } from "../types/integrantes";
 
 export const TEAM_MEMBERS: TeamMember[] = [
   { id: 'laura-gama', name: 'Laura Albuquerque Gama', role: 'BD & Engenharia de Soft.', rm: 'RM 571296', github: 'https://github.com/Lagsystems', linkedin: 'https://www.linkedin.com/in/laura-albuquerque-gama-b83382357/', avatarPlaceholder: 'LG', photo: '/laura.jpeg' },

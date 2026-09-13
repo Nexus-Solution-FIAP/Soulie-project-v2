@@ -1,5 +1,7 @@
-import { useSoulie, type SoulieMood } from '../context/SoulieContext';
-import { MOOD_ANIMATIONS, PLANT_FILTERS, SOULIE_MOOD_LABELS } from '../constants/soulie';
+import { MOOD_ANIMATIONS, SOULIE_MOOD_LABELS } from '../constants/soulie';
+import { useSoulie } from '../context/SoulieContext';
+
+import type { SoulieMood } from '../types/soulie';
 
 interface SoulieProps {
   size?: number;
@@ -470,7 +472,7 @@ export function Soulie({ size = 180, showMoodLabel = false }: SoulieProps) {
 
   return (
     <div className="relative flex flex-col items-center">
-      <div className={`transition-[filter] duration-[600ms] ease-in-out ${MOOD_ANIMATIONS[mood]} ${PLANT_FILTERS[plantType] || ''} ${mood === 'excited' ? 'animate-soulie-levelup-glow rounded-full' : ''}`}>
+      <div className={`transition-[filter] duration-[600ms] ease-in-out ${MOOD_ANIMATIONS[mood]} ${mood === 'excited' ? 'animate-soulie-levelup-glow rounded-full' : ''}`}>
         {renderStage()}
       </div>
       {showMoodLabel && (
