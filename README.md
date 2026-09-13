@@ -13,7 +13,7 @@
 **Transforme ações sustentáveis do dia a dia em uma jornada de evolução.**
 Cuide do seu Soulie, complete missões ecológicas, suba no ranking e faça a diferença! 🌍
 
-[▶️ Vídeo de Demonstração no YouTube](https://youtube.com) • [🔗 Repositório no GitHub](https://github.com/Nexus-Solution-FIAP/Soulie-project-v2)
+[▶️ Vídeo de Demonstração no YouTube](https://youtu.be/nw04pjHX30k) • [🔗 Repositório no GitHub](https://github.com/Nexus-Solution-FIAP/Soulie-project-v2)
 
 </div>
 
@@ -112,6 +112,24 @@ soulie/
 
 ---
 
+## 📸 Capturas de Tela do Projeto
+
+<div align="center">
+  <img src="./public/Captura%20de%20tela%20Home.png" alt="Home do Soulie" width="800" />
+  <br/>
+  <i>Página Inicial (Home)</i>
+  <br/><br/>
+  <img src="./public/Captura%20de%20tela%20Dashboard.png" alt="Dashboard do Soulie" width="800" />
+  <br/>
+  <i>Dashboard com o Avatar Interativo e Missões</i>
+  <br/><br/>
+  <img src="./public/Captura%20de%20tela%20Sobre.png" alt="Sobre o Soulie" width="800" />
+  <br/>
+  <i>Página Sobre com detalhes da gamificação</i>
+</div>
+
+---
+
 ## ⚙️ Como Rodar o Projeto
 
 ### Pré-requisitos
@@ -122,10 +140,10 @@ soulie/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/soulie.git
+git clone https://github.com/Nexus-Solution-FIAP/Soulie-project-v2.git
 
 # Entre na pasta do projeto
-cd soulie
+cd Soulie-project-v2
 
 # Instale as dependências
 npm install
@@ -184,12 +202,6 @@ Disciplina: Front-End Design Engineering
 - **E-mail:** soulie@soulup.com.br
 - **Telefone:** +55 11 3385-8010
 - **Formulário:** Acessível via rota `/contato` na aplicação
-
----
-
-## 📄 Licença
-
-Este projeto é distribuído sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
